@@ -9,15 +9,13 @@
 
 .tab{
     font-size: 15px;
-    border-bottom: solid;
-    border-color: var(--background-color);
+    border-bottom: solid var(--background-color);
     transition: ease;
-    transition-duration: 0.2s;
+    transition-duration: 0.5s;
 }
 
 .tab:hover{
     cursor: pointer;
-    border-bottom: solid;
     border-color: var(--main-color);
 }
 
