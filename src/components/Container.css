@@ -1,0 +1,5 @@
+.container > *{
+    max-width: var(--viewport-width);
+    padding: var(--default-gap);
+    margin: 0 auto;
+}

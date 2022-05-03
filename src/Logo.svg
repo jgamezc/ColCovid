@@ -1,0 +1,8 @@
+<svg id="Logo" xmlns="http://www.w3.org/2000/svg" width="258" height="239" viewBox="0 0 258 239">
+  <rect id="Rectángulo_12" data-name="Rectángulo 12" width="66" height="108" rx="33" transform="translate(108 239) rotate(180)" fill="#1ef27a"/>
+  <rect id="Rectángulo_6" data-name="Rectángulo 6" width="66" height="239" rx="33" transform="translate(192)" fill="#0ef"/>
+  <rect id="Rectángulo_9" data-name="Rectángulo 9" width="66" height="174" rx="33" transform="translate(117 65)" fill="#00ffcb"/>
+  <path id="Rectángulo_7" data-name="Rectángulo 7" d="M32.5,0h0A32.5,32.5,0,0,1,65,32.5v43A32.5,32.5,0,0,1,32.5,108H0a0,0,0,0,1,0,0V32.5A32.5,32.5,0,0,1,32.5,0Z" transform="translate(0 196) rotate(-90)" fill="#1bd86d"/>
+  <path id="Trazado_6" data-name="Trazado 6" d="M33,0A33,33,0,0,1,66,33V75a33,33,0,0,1-33,33H0V33A33,33,0,0,1,33,0Z" transform="translate(75 131) rotate(-90)" fill="#00e1b3"/>
+  <path id="Trazado_7" data-name="Trazado 7" d="M32.5,0A32.5,32.5,0,0,1,65,32.5v43A32.5,32.5,0,0,1,32.5,108H0V32.5A32.5,32.5,0,0,1,32.5,0Z" transform="translate(150 65) rotate(-90)" fill="#04d5e3"/>
+</svg>

@@ -1,0 +1,68 @@
+.option-button{
+    width: 100%;
+    display: flex;
+    justify-content: right;
+}
+
+.option-button-label{
+    background-color: var(--main-color);
+    border-radius: var(--default-radius);
+    padding: 0.5rem;
+    width: 10rem;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    gap: 0;
+}
+
+.option-button-label:hover{
+    cursor: pointer;
+}
+
+.option-button-label p{
+    width: 100%;
+    font-size: 10px;
+}
+
+.option-button-text{
+    flex-grow: 1;
+}
+
+.option-button-icon{
+    display: flex;
+}
+
+.popup-container{
+    padding: var(--default-gap);
+    position: fixed;
+    top:0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    z-index: 1;
+}
+
+.disabled{
+    display: none;
+}
+
+.popup-menu{
+    list-style: none;
+}
+
+.popup-menu li{
+    padding: var(--default-gap);
+    width: 100%;
+}
+
+.popup-menu li:hover{
+    cursor: pointer;
+    background-color: var(--main-color);
+}
+
+#popup-card{
+    max-width: 20rem;
+    margin: auto;
+}

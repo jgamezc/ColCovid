@@ -1,0 +1,26 @@
+.dashboard{
+    display: grid;
+    gap: var(--default-gap);
+}
+
+@media (min-width: 50rem){
+    .dashboard{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (min-width: 60rem){
+    .dashboard{
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+    #statistics-chart{
+        grid-column: span 2;
+    }
+    #age-chart{
+        grid-column: span 2;
+    }
+    #city-chart{
+        grid-column-start: 4;
+        grid-row: 1/span 2;
+    }
+}

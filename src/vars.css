@@ -1,0 +1,17 @@
+:root{
+    --sample-var:1;
+    --viewport-width:120rem;
+
+
+    /* Colors */
+    --main-color: #eeeeee;
+    --main-text-color: #424242;
+    --background-color:white;
+    --green-color: #1BD86D;
+
+    --default-gap:2rem;
+
+
+    --radius-normal:2rem;
+    --default-radius:3rem;
+}

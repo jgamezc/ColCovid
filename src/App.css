@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+
+    font-family: 'Montserrat', sans-serif;
+    font-size: 11px;
+    color: var(--main-text-color);
+    text-align: center;
+    text-decoration: none;
+
+    box-sizing: border-box;
+}
+
+h1{
+    font-size: 30px;
+}
+h2{
+    font-size: 25px;
+}
+h3{
+    font-size: 16px;
+}
+
+body{
+    background-color: var(--background-color);
+}
+
+#header-container{
+    position: sticky;
+}
+
+#header-container, #dashboard-container{
+    background-color: var(--main-color);
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.menu ul{
+    display: flex;
+    list-style: none;
+    gap: 2rem;
+}
+
+.menu a{
+    font-size: 15px;
+}
+
+.banner{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.banner img{
+    max-width: 12rem;
+}
+
+.slogan{
+    max-width: 20rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.slogan p{
+    font-size: 15px;
+}
+
+.slogan h2 {
+    font-size: 26px;
+    font-weight: 400;
+}
+
+.slogan b{
+    font-size: 26px;
+}
+
+.slogan p{
+    max-width: 16rem;
+}
+
+.card{
+    background-color: var(--background-color);
+    padding: var(--default-gap);
+    border-radius: var(--default-radius);
+    gap: var(--default-gap);
+}
+
+.flex-column{
+    display:flex;
+    flex-direction: column;
+    gap: var(--default-gap);
+    align-items: center;
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+    gap: var(--default-gap);
+}
