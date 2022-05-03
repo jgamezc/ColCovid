@@ -19,8 +19,8 @@ export default function ChartHeader({children, onTabUpdate}) {
     <div className='card-header flex'>
       <h3>{children}</h3>
       <ul className='tab-menu flex'>
-        <li onClick={()=>{updateTab(0)}} className={tab==0?"tab active":"tab"}>confirmados</li>
-        <li onClick={()=>{updateTab(1)}} className={tab==1?"tab active":"tab"}>fallecidos</li>
+        <li onClick={()=>{updateTab(0)}} className={tab===0?"tab active":"tab"}>confirmados</li>
+        <li onClick={()=>{updateTab(1)}} className={tab===1?"tab active":"tab"}>fallecidos</li>
       </ul>
     </div>
   )

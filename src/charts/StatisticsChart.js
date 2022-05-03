@@ -36,6 +36,7 @@ export default function StatisticsChart({id}) {
     }, [])
 
     function onTabUpdate(value){
+        setType(value)
         updateData(value, date)
     }
 
